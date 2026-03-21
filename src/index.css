@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CSS Variables */
+:root {
+    --sidebar-logo-height: 70px;
+}
+
+.link {
+    @apply flex cursor-pointer select-none items-center gap-6 rounded-md p-2.5 font-medium duration-300 hover:bg-secondary/20;
+}
+
+.active {
+    @apply bg-primary text-white hover:bg-primary;
+}
+
+.sub-menu.active {
+    @apply bg-transparent text-primary underline;
+}
+
+.table-tag-blue {
+    @apply w-fit text-balance rounded border-2 border-solid border-blue-600 bg-blue-100 px-3 text-sm text-blue-600;
+}
+
+.table-tag-green {
+    @apply w-fit text-balance rounded border-2 border-solid border-green-600 bg-green-100 px-3 text-sm text-green-600;
+}
+
+.table-tag-pink {
+    @apply w-fit text-balance rounded border-2 border-solid border-pink-600 bg-pink-100 px-3 text-sm text-pink-600;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(252, 252, 252, 0.6);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    background-image: linear-gradient(to bottom, #344e41, #588157);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    opacity: 90;
+}
+
+/* Prevent Autofill CSS */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #588157;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+/* Error Page Linear Gradient */
+.error-page-linear-gradient {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.font-nunito {
+    font-family: 'Nunito', sans-serif;
+}
+
+.font-oswald {
+    font-family: 'Oswald', sans-serif;
+}
+
+.bg-muted {
+    background-color: hsl(240 3.7% 15.9%);
+}
