@@ -1,6 +1,6 @@
-# Stay Mate Hotel - Website
+# Comic - Website
 
-This is the Website portion of our final project of the Service Oriented Software Development course.
+This is the Website portion of the Service Oriented Software Development.
 
 ## Table of Contents
 
