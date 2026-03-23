@@ -1,18 +1,5 @@
 # Comic - Website
 
-This is the Website portion of the Service Oriented Software Development.
-
-## Table of Contents
-
--   [Technologies Used](#technologies-used)
--   [Required Dependencies](#required-dependencies)
--   [Installation](#installation)
--   [Before You Run](#before-you-run)
--   [Development](#development)
--   [Features](#features)
--   [Suggested VS Code Extensions](#suggested-vs-code-extensions)
--   [Contributors](#contributors)
-
 ## Technologies Used
 
 -   [React](https://reactjs.org/)
@@ -39,13 +26,13 @@ Follow these steps to set up and run the application locally.
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/YGOhappy123/StayMateHotel-Website.git
+    git clone https://github.com/NguyenPhiLongIT/ComicWebClient.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd StayMateHotel-Website
+    cd ComicWebClient
     ```
 
 3. Install dependencies:
